@@ -136,5 +136,10 @@ namespace FLStudioBrowserColorizer
             Process.Start("https://github.com/sp0ok3r");
             Process.Start("https://linktr.ee/sp0ok3r");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

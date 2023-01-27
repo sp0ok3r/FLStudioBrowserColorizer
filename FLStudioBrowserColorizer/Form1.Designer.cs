@@ -217,6 +217,8 @@
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Default;
             this.Text = "FLBrowserColorizer";
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.apppicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).EndInit();
             this.ResumeLayout(false);
