@@ -10,3 +10,5 @@ Change One/Multiple folders colors in FL Studio Browser!
 </p>
 
 You can write the hex color or leave it blank, color picker will show up.
+
+This program only creates nfo files, it doesnt mess with fl studio internals.
