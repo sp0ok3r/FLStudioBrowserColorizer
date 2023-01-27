@@ -6,10 +6,10 @@ using System.Diagnostics;
 
 namespace FLStudioBrowserColorizer
 {
-
-
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
+
+
         OpenFileDialog folderBrowser = new OpenFileDialog();
 
         public Form1()
@@ -17,6 +17,9 @@ namespace FLStudioBrowserColorizer
             InitializeComponent();
             components.SetStyle(this);
         }
+
+        
+        
         private static String HexConverterFL(Color c)
         {
             return c.B.ToString("X2") + c.G.ToString("X2") + c.R.ToString("X2");

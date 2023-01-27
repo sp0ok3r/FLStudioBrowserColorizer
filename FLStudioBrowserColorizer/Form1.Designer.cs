@@ -39,8 +39,8 @@
             this.apppicbox = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.metroStyleManager = new MetroFramework.Components.MetroStyleManager(this.components);
-            this.link_spk = new MetroFramework.Controls.MetroLink();
             this.metroToolTip1 = new MetroFramework.Components.MetroToolTip();
+            this.link_spk = new MetroFramework.Controls.MetroLink();
             ((System.ComponentModel.ISupportInitialize)(this.apppicbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).BeginInit();
             this.SuspendLayout();
@@ -178,6 +178,12 @@
             this.metroStyleManager.Style = MetroFramework.MetroColorStyle.White;
             this.metroStyleManager.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
+            // metroToolTip1
+            // 
+            this.metroToolTip1.Style = MetroFramework.MetroColorStyle.Default;
+            this.metroToolTip1.StyleManager = null;
+            this.metroToolTip1.Theme = MetroFramework.MetroThemeStyle.Light;
+            // 
             // link_spk
             // 
             this.link_spk.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -190,12 +196,6 @@
             this.link_spk.UseCustomForeColor = true;
             this.link_spk.UseSelectable = true;
             this.link_spk.Click += new System.EventHandler(this.link_spk_Click);
-            // 
-            // metroToolTip1
-            // 
-            this.metroToolTip1.Style = MetroFramework.MetroColorStyle.Default;
-            this.metroToolTip1.StyleManager = null;
-            this.metroToolTip1.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
             // Form1
             // 
@@ -237,8 +237,8 @@
         private System.Windows.Forms.PictureBox apppicbox;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private MetroFramework.Components.MetroStyleManager metroStyleManager;
-        private MetroFramework.Controls.MetroLink link_spk;
         private MetroFramework.Components.MetroToolTip metroToolTip1;
+        private MetroFramework.Controls.MetroLink link_spk;
     }
 }
 
