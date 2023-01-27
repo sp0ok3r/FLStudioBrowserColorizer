@@ -6,5 +6,5 @@ Change One/Multiple folders colors in FL Studio Browser!
 </p>
 
 <p align="center">
-<img width="300" height="300" src="https://raw.githubusercontent.com/sp0ok3r/FLStudioBrowserColorizer/master/flsbc_img.png">
+<img width="312" height="263" src="https://raw.githubusercontent.com/sp0ok3r/FLStudioBrowserColorizer/master/flsbc_img.png">
 </p>
